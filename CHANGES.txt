@@ -4,3 +4,9 @@ Changes
 v0.1
 ----
 - Initial version
+- Changes from MRR_ESPA v1.0
+  - Added 74HC595 to drive stepper motors.
+  - Standardized to use IRLR8743 for all MOSFETS using a different footprint with better thermal via to spread heat over to reverse side.
+  - Reorganized board layout
+    - microSD card slot mounted on reverse side to free up additional footprint on top side.
+    - Consolidated breakout pins.
