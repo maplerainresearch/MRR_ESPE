@@ -3,10 +3,13 @@ Changes
 
 v0.1
 ----
-- Initial version
+- Initial version.
 - Changes from MRR_ESPA v1.0
   - Added 74HC595 to drive stepper motors.
-  - Standardized to use IRLR8743 for all MOSFETS using a different footprint with better thermal via to spread heat over to reverse side.
   - Reorganized board layout
     - microSD card slot mounted on reverse side to free up additional footprint on top side.
-    - Consolidated breakout pins.
+  - Changed F2 to a bigger 30A fuse.
+- Support for Creality LCD.
+- Jumpers for TMC2130 SPI mode support
+  - Breakout pins for X_CS, Y_CS, Z_CS, and E_CS which can then be connected with jumper wires to available pins.
+
