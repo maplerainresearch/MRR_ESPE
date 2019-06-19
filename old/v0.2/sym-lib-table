@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MRR_ESPA-rescue)(type Legacy)(uri ${KIPRJMOD}/MRR_ESPA-rescue.lib)(options "")(descr ""))
+  (lib (name projsym)(type Legacy)(uri ${KIPRJMOD}/projlib/projsym.lib)(options "")(descr ""))
+  (lib (name MRR_ESPE-rescue)(type Legacy)(uri ${KIPRJMOD}/MRR_ESPE-rescue.lib)(options "")(descr ""))
+)
