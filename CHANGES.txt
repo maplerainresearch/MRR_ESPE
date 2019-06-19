@@ -1,6 +1,14 @@
 Changes
 -------
 
+v0.3
+----
+- Added pull-up resistors to MOTOR_EN pins.
+
+v0.2
+----
+- Widened trace width of VBED-related traces.
+
 v0.1
 ----
 - Initial version.
