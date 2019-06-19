@@ -8,6 +8,7 @@ v0.3
 v0.2
 ----
 - Widened trace width of VBED-related traces.
+- Changed F2 to use a bigger (Littelfuse 0456 series) 30A fuse.
 
 v0.1
 ----
