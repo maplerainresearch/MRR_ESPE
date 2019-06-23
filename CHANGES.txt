@@ -4,6 +4,8 @@ Changes
 v0.3
 ----
 - Added pull-up resistors to MOTOR_EN pins.
+- Changed endstop connectors to JST XH.
+- Added EXP1 and EXP2 connectors for Reprap full graphic smart LCD controllers.
 
 v0.2
 ----
