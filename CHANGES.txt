@@ -1,9 +1,39 @@
 Changes
 -------
+v0.5
+----
+- Changed 74HCT595 footprint to TSSOP for better use of PCB space.
+- Added PWR_SEL jumper to select between 12V and 24V for heated bed MOSFET gate.
+- Added debounce capacitor to RESET button.
+- Change VUSB_EN jumper to 5V_SEL jumper, to select between VUSB and VIN for 5V source.
+
+v0.4
+----
+- Test version.
+- 4 x 74HCT595 (32 outputs, TTL version running at VCC=5V):
+  - 5 x stepper drivers (5 x 3 outputs = 15 outputs from lower 16 pins).
+  - 74HCT595 for fan controls (3 outputs from upper 16 pins):
+    - CONTROLLER_FAN, E0_AUTO_FAN, E1_AUTO_FAN
+  - Jumpers to select between ESP32 and I2S pins (4 outputs from upper 16 pins):
+    - Bed MOSFET
+    - E0 MOSFET
+    - Part-cooling fan
+    - Beeper
+  - Unused pin connector (10-pin).
+- 2 x WST3392 for fan PWM control:
+  - Part-cooling fan
+  - CONTROLLER_FAN, E0_AUTO_FAN, E1_AUTO_FAN + jumpers for "always on" operation
+- Total board layout revamp to allow 5 stepper drivers, with board size 102mm x 102mm.
+- Changed power MOSFETs
+  - WSK220N04 for Bed MOSFET.
+  - WSF3085 for E0 MOSFET.
+- Added T_EXT connector (IO34) for extra thermistor.
+- Added VUSB_EN jumper to disable VUSB power.
+- Added SD_EN jumper to select between onboard microSD card or external card.
 
 v0.3
 ----
-- Test version; 4x74HC595 instead of 2x74HC595; some of the additional I2S pins are connected to male headers for use in testing.
+- Test version; 4 x 74HC595 instead of 2 x 74HC595; some of the additional I2S pins are connected to male headers for use in testing.
 - Added pull-up resistors to MOTOR_EN pins.
 - Changed endstop and thermistor connectors to JST XH.
 - Changed TPS54340-related layout to take into consideration recommended PCB layout in data sheet.
