@@ -3,9 +3,11 @@ Changes
 
 v0.3
 ----
+- Test version; 4x74HC595 instead of 2x74HC595; some of the additional I2S pins are connected to male headers for use in testing.
 - Added pull-up resistors to MOTOR_EN pins.
-- Changed endstop connectors to JST XH.
-- Added EXP1 and EXP2 connectors for Reprap full graphic smart LCD controllers.
+- Changed endstop and thermistor connectors to JST XH.
+- Changed TPS54340-related layout to take into consideration recommended PCB layout in data sheet.
+- Changed pins to allow better ground plane under I2S to reduce noise.
 
 v0.2
 ----
