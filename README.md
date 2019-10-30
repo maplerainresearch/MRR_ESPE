@@ -4,7 +4,8 @@
 This is a 3D printer control board based on the ESP32 microcontroller, which comes with built-in WiFi and BlueTooth.
 
 **Work in progress! Do not attempt production using this schematic!**<br>
-**Current version: v0.4**<br>
+**Problem with I2S stepper stream in Marlin firmware; may result in random pauses during prints**<br>
+**Current version: v0.5**<br>
 
 Features:
 - Able to use up to 5 stepper drivers: X, Y, Z, E0, and E1.
@@ -14,8 +15,8 @@ Features:
 - Allows the use of a Z-axis probe, such as an inductive sensor, running on the input supply voltage (12V to 24V).
 - Physical size of 102mm by 102mm. Mounting holes are 3.5mm in diameter, with centers 4mm from the edges.
 - "RESET" button can be used to reset the board.
-- Use of jumper pins for TMC stepper driver connections. (**undergoing testing**)
-- Firmware controlled fans: case, E0, and E1. These fans can be controlled by firmware, or they can be in the "always on" mode by shorting the respective jumpers.
+- Use of jumper pins for TMC stepper driver connections.
+- Firmware controlled fans: case, E0, and EXT. These fans can be controlled by firmware, or they can be in the "always on" mode by shorting the respective jumpers.
 - EXP3 connector for Creality LCD controller. 
 - AUX1 connector for use with an external host, such as the closed-source MKS TFT32 (**Untested!!**).
 
@@ -32,7 +33,8 @@ In addition, [Luc](https://github.com/luc-github) has been working on a Marlin f
 
 # Jumpers
 
-- VUSB_EN: Leave open for normal operation; only short (close) this jumper if you need to power the board via USB. Note: Powering the board with both PSU and USB may cause unstable operation during heating.
+- 5V_SEL: Connect to VIN for normal operation; only short (close) this jumper to VUSB if you need to power the board via USB. Note: Powering the board with both PSU and USB may cause unstable operation during heating.
+- PWR_SEL: Connect the middle pin PWR_SEL to pin labeled "12V" if using 12V; connect PWR_SEL to pin labeled "24V" if using 24V.
 - CASE_ON: Leave open for firmware-controlled case fan; short (close) this jumper for case fan to be always on.
 - E0_ON: Leave open for firmware-controlled E0 hotend fan; short (close) this jumper for E0 hotend fan to be always on.
 - E1_ON: Leave open for firmware-controlled E1 hotend fan (if used); short (close) this jumper for E1 hotend fan to be always on.
@@ -41,7 +43,7 @@ In addition, [Luc](https://github.com/luc-github) has been working on a Marlin f
   - MS2: VIO to set high; SPI if using TMC SPI mode
   - MS3: VIO to set high; SPI if using TMC SPI mode
   - RST: SLP if using A4988/DRV8825; SPI if using TMC SPI mode
-  - Note: TMC SPI mode for the ESP32 is still under development. MRR ESPA is hardware-ready in anticipation of proper software support. Due to a lack of input pins on the ESP32, UART mode is not supported.
+  - Note: Due to a lack of input pins on the ESP32, UART mode is not supported.
 
 
 # Pins

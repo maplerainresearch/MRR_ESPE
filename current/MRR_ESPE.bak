@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "MRR ESPE"
-Date "2019-07-07"
-Rev "v0.4"
+Date "2019-08-22"
+Rev "v0.5"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -22,6 +22,9 @@ F 0 "U1" H 1850 3978 50  0000 C CNN
 F 1 "ESP32-WROOM-32D" H 1850 3887 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 1850 900 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1550 2450 50  0001 C CNN
+F 4 "C95209" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Espressif Systems" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ESP32-WROOM-32" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1850 2400
 	1    0    0    -1  
 $EndComp
@@ -147,6 +150,9 @@ F 0 "J9" H 4100 1950 50  0000 C CNN
 F 1 "PWR_IN" H 4100 1850 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 4050 1650 50  0001 C CNN
 F 3 "~" H 4050 1650 50  0001 C CNN
+F 4 "C90087" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Phoenix Contact" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MKDS3/4-5.08" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4050 1650
 	-1   0    0    -1  
 $EndComp
@@ -155,9 +161,12 @@ L Device:Fuse F1
 U 1 1 5C472A2F
 P 4550 1550
 F 0 "F1" V 4353 1550 50  0000 C CNN
-F 1 "20A 1808" V 4444 1550 50  0000 C CNN
+F 1 "15A 2410" V 4444 1550 50  0000 C CNN
 F 2 "projfp:Littelfuse_0451" V 4480 1550 50  0001 C CNN
-F 3 "~" H 4550 1550 50  0001 C CNN
+F 3 "Bel 0679H9150-01" H 4550 1550 50  0001 C CNN
+F 4 "C44480" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Littelfuse" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0451015.MRL" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4550 1550
 	0    1    1    0   
 $EndComp
@@ -168,7 +177,10 @@ P 4750 1850
 F 0 "F2" V 4650 1850 50  0000 C CNN
 F 1 "30A 3912" V 4850 1750 50  0000 C CNN
 F 2 "projfp:Littelfuse_0456" V 4680 1850 50  0001 C CNN
-F 3 "~" H 4750 1850 50  0001 C CNN
+F 3 "Bel 0678H9300-02" H 4750 1850 50  0001 C CNN
+F 4 "C187558" V 4750 1850 50  0001 C CNN "LCSC Part Number"
+F 5 "0456030.ER" V 4750 1850 50  0001 C CNN "Mfg part no."
+F 6 "Littelfuse" V 4750 1850 50  0001 C CNN "Manufacturer"
 	1    4750 1850
 	0    1    1    0   
 $EndComp
@@ -188,9 +200,12 @@ L Diode:1N4007 D4
 U 1 1 5C472E04
 P 4900 2000
 F 0 "D4" V 4854 2079 50  0000 L CNN
-F 1 "1N4007" V 4945 2079 50  0000 L CNN
+F 1 "1N4007W" V 4945 2079 50  0000 L CNN
 F 2 "projfp:D_SOD-123F" H 4900 1825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4900 2000 50  0001 C CNN
+F 4 "C108803" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shandong Jingdao Microelectronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1N4007W" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4900 2000
 	0    1    1    0   
 $EndComp
@@ -199,9 +214,12 @@ L Diode:1N4007 D5
 U 1 1 5C472EB6
 P 5000 1550
 F 0 "D5" H 5000 1766 50  0000 C CNN
-F 1 "1N4007" H 5000 1675 50  0000 C CNN
+F 1 "1N4007W" H 5000 1675 50  0000 C CNN
 F 2 "projfp:D_SOD-123F" H 5000 1375 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5000 1550 50  0001 C CNN
+F 4 "C108803" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shandong Jingdao Microelectronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1N4007W" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5000 1550
 	1    0    0    -1  
 $EndComp
@@ -239,6 +257,9 @@ F 0 "U2" H 6900 1867 50  0000 C CNN
 F 1 "TPS54340DDA" H 6900 1776 50  0000 C CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8_ThermalVias" H 6950 950 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps54340.pdf" H 6900 1400 50  0001 C CNN
+F 4 "C45886" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TPS54340DDAR" H 0   0   50  0001 C CNN "Mfg part no."
 	1    6900 1400
 	1    0    0    -1  
 $EndComp
@@ -250,6 +271,9 @@ F 0 "C10" V 7198 1200 50  0000 C CNN
 F 1 "100nF50V" V 7289 1200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7488 1050 50  0001 C CNN
 F 3 "~" H 7450 1200 50  0001 C CNN
+F 4 "C161260" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Murata Electronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "GCM21BR71H104KA37L" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7450 1200
 	0    1    1    0   
 $EndComp
@@ -265,6 +289,9 @@ F 0 "C7" V 6500 1450 50  0000 R CNN
 F 1 "4.7uF50V" V 6400 1600 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6288 1200 50  0001 C CNN
 F 3 "~" H 6250 1350 50  0001 C CNN
+F 4 "C307575" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL31B475KBHNFNE" H 0   0   50  0001 C CNN "Mfg part no."
 	1    6250 1350
 	-1   0    0    1   
 $EndComp
@@ -276,6 +303,9 @@ F 0 "C4" V 5600 1250 50  0000 L CNN
 F 1 "100uF50V" V 5700 1100 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10" H 5850 1350 50  0001 C CNN
 F 3 "~" H 5850 1350 50  0001 C CNN
+F 4 "C176665" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Lelon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VEJ101M1HTR-0810" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5850 1350
 	1    0    0    -1  
 $EndComp
@@ -322,6 +352,9 @@ F 0 "L1" V 7990 1400 50  0000 C CNN
 F 1 "4.7uH4.5A" V 7899 1400 50  0000 C CNN
 F 2 "projfp:SMMS0530" H 7800 1400 50  0001 C CNN
 F 3 "~" H 7800 1400 50  0001 C CNN
+F 4 "C181722" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shun Xiang Nuo Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SMMS0530-4R7M" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7800 1400
 	0    -1   -1   0   
 $EndComp
@@ -333,6 +366,9 @@ F 0 "D9" H 7800 1650 50  0000 L CNN
 F 1 "B540C-13-F" H 7550 1750 50  0000 L CNN
 F 2 "projfp:D_SMC" H 7650 1550 50  0001 C CNN
 F 3 "~" H 7650 1550 50  0001 C CNN
+F 4 "C72264" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Diodes Incorporated" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "B540C-13-F" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7650 1550
 	0    1    1    0   
 $EndComp
@@ -344,6 +380,9 @@ F 0 "R24" H 8100 1550 50  0000 L CNN
 F 1 "60.4K" V 8050 1450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 1550 50  0001 C CNN
 F 3 "~" H 8050 1550 50  0001 C CNN
+F 4 "C273994" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "YAGEO" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0805FR-0760K4L" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8050 1550
 	1    0    0    -1  
 $EndComp
@@ -355,6 +394,9 @@ F 0 "R25" H 8100 1850 50  0000 L CNN
 F 1 "11.5K" V 8050 1750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 1850 50  0001 C CNN
 F 3 "~" H 8050 1850 50  0001 C CNN
+F 4 "C17418" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1152T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8050 1850
 	1    0    0    -1  
 $EndComp
@@ -363,13 +405,16 @@ L Device:C C12
 U 1 1 5C474DBB
 P 8350 1400
 F 0 "C12" V 8098 1400 50  0000 C CNN
-F 1 "47uF16V" V 8189 1400 50  0000 C CNN
+F 1 "47uF10V" V 8189 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8388 1250 50  0001 C CNN
 F 3 "~" H 8350 1400 50  0001 C CNN
+F 4 "C92821" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LMK316BJ476ML-T" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8350 1400
 	0    1    1    0   
 $EndComp
-Text GLabel 15150 1450 0    50   BiDi ~ 0
+Text GLabel 15250 1500 0    50   BiDi ~ 0
 5V1
 Wire Wire Line
 	7650 1400 7600 1400
@@ -409,6 +454,9 @@ F 0 "C8" V 6748 2150 50  0000 C CNN
 F 1 "820pF50V" V 6850 2250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 2000 50  0001 C CNN
 F 3 "~" H 7000 2150 50  0001 C CNN
+F 4 "C152862" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B821K500CT" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7000 2150
 	0    1    1    0   
 $EndComp
@@ -420,6 +468,9 @@ F 0 "R21" V 7400 2150 50  0000 C CNN
 F 1 "23.7K" V 7500 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7430 2150 50  0001 C CNN
 F 3 "~" H 7500 2150 50  0001 C CNN
+F 4 "C170848" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WR08X2372FTL" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7500 2150
 	0    1    1    0   
 $EndComp
@@ -435,6 +486,9 @@ F 0 "C9" V 6998 2450 50  0000 C CNN
 F 1 "56pF50V" V 7089 2450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 2300 50  0001 C CNN
 F 3 "~" H 7250 2450 50  0001 C CNN
+F 4 "C296102" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805N560J500CT" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7250 2450
 	0    1    1    0   
 $EndComp
@@ -466,6 +520,9 @@ F 0 "R18" H 6350 1900 50  0000 R CNN
 F 1 "73.2K" V 6400 1950 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 1850 50  0001 C CNN
 F 3 "~" H 6400 1850 50  0001 C CNN
+F 4 "C170958" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WR08X7322FTL" H 0   0   50  0001 C CNN "Mfg part no."
 	1    6400 1850
 	-1   0    0    1   
 $EndComp
@@ -490,6 +547,9 @@ F 0 "U4" H 9650 1492 50  0000 C CNN
 F 1 "AMS1117-3.3" H 9650 1401 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9650 1450 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 9750 1000 50  0001 C CNN
+F 4 "C6186" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Advanced Monolithic Systems" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "AMS1117-3.3" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9650 1250
 	1    0    0    -1  
 $EndComp
@@ -498,9 +558,12 @@ L Device:C C14
 U 1 1 5C478011
 P 10050 1400
 F 0 "C14" H 10200 1400 50  0000 L CNN
-F 1 "10uF16V" H 10100 1300 50  0000 L CNN
+F 1 "47uF6.3V" H 10100 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10088 1250 50  0001 C CNN
 F 3 "~" H 10050 1400 50  0001 C CNN
+F 4 "C87159" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "JMK212BJ476MG-T" H 0   0   50  0001 C CNN "Mfg part no."
 	1    10050 1400
 	1    0    0    -1  
 $EndComp
@@ -509,9 +572,12 @@ L Device:C C13
 U 1 1 5C478126
 P 9200 1400
 F 0 "C13" V 8950 1350 50  0000 L CNN
-F 1 "10uF16V" V 9050 1200 50  0000 L CNN
+F 1 "47uF6.3V" V 9050 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9238 1250 50  0001 C CNN
 F 3 "~" H 9200 1400 50  0001 C CNN
+F 4 "C87159" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "JMK212BJ476MG-T" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9200 1400
 	1    0    0    -1  
 $EndComp
@@ -583,6 +649,9 @@ F 0 "R28" V 11400 1250 50  0000 C CNN
 F 1 "220R" V 11500 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 11430 1250 50  0001 C CNN
 F 3 "~" H 11500 1250 50  0001 C CNN
+F 4 "C17557" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F2200T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11500 1250
 	0    1    1    0   
 $EndComp
@@ -594,6 +663,9 @@ F 0 "D10" H 11800 1050 50  0000 C CNN
 F 1 "LED_3V" H 11800 1150 50  0000 C CNN
 F 2 "projfp:LED_0805" H 11800 1250 50  0001 C CNN
 F 3 "~" H 11800 1250 50  0001 C CNN
+F 4 "C73548" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Everlight Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "17-21SYGC/S530-E2/TR8" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11800 1250
 	-1   0    0    1   
 $EndComp
@@ -605,6 +677,9 @@ F 0 "R29" V 11400 1550 50  0000 C CNN
 F 1 "330R" V 11500 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 11430 1550 50  0001 C CNN
 F 3 "~" H 11500 1550 50  0001 C CNN
+F 4 "C17630" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F3300T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11500 1550
 	0    1    1    0   
 $EndComp
@@ -616,6 +691,9 @@ F 0 "R30" V 11400 1850 50  0000 C CNN
 F 1 "2.2K" V 11500 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 11430 1850 50  0001 C CNN
 F 3 "~" H 11500 1850 50  0001 C CNN
+F 4 "C17520" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F2201T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11500 1850
 	0    1    1    0   
 $EndComp
@@ -627,6 +705,9 @@ F 0 "R31" V 11400 2150 50  0000 C CNN
 F 1 "2.2K" V 11500 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 11430 2150 50  0001 C CNN
 F 3 "~" H 11500 2150 50  0001 C CNN
+F 4 "C17520" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F2201T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11500 2150
 	0    1    1    0   
 $EndComp
@@ -638,6 +719,9 @@ F 0 "D11" H 11800 1350 50  0000 C CNN
 F 1 "LED_5V" H 11800 1450 50  0000 C CNN
 F 2 "projfp:LED_0805" H 11800 1550 50  0001 C CNN
 F 3 "~" H 11800 1550 50  0001 C CNN
+F 4 "C73548" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Everlight Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "17-21SYGC/S530-E2/TR8" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11800 1550
 	-1   0    0    1   
 $EndComp
@@ -649,6 +733,9 @@ F 0 "D12" H 11800 1650 50  0000 C CNN
 F 1 "LED_VIN" H 11800 1750 50  0000 C CNN
 F 2 "projfp:LED_0805" H 11800 1850 50  0001 C CNN
 F 3 "~" H 11800 1850 50  0001 C CNN
+F 4 "C72035" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Everlight Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "17-21/BHC-XL2M2TY/3T" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11800 1850
 	-1   0    0    1   
 $EndComp
@@ -660,6 +747,9 @@ F 0 "D13" H 11800 1950 50  0000 C CNN
 F 1 "LED_VBED" H 11800 2050 50  0000 C CNN
 F 2 "projfp:LED_0805" H 11800 2150 50  0001 C CNN
 F 3 "~" H 11800 2150 50  0001 C CNN
+F 4 "C72035" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Everlight Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "17-21/BHC-XL2M2TY/3T" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11800 2150
 	-1   0    0    1   
 $EndComp
@@ -689,30 +779,30 @@ Text GLabel 11350 2150 0    50   BiDi ~ 0
 VBED
 Text GLabel 11350 1850 0    50   BiDi ~ 0
 VIN
-Text GLabel 15150 1250 0    50   BiDi ~ 0
+Text GLabel 15250 1300 0    50   BiDi ~ 0
 VIN
-Text GLabel 15150 1350 0    50   BiDi ~ 0
+Text GLabel 15250 1400 0    50   BiDi ~ 0
 VBED
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C483F81
-P 15150 1250
-F 0 "#FLG0101" H 15150 1325 50  0001 C CNN
-F 1 "PWR_FLAG" V 15150 1378 50  0000 L CNN
-F 2 "" H 15150 1250 50  0001 C CNN
-F 3 "~" H 15150 1250 50  0001 C CNN
-	1    15150 1250
+P 15250 1300
+F 0 "#FLG0101" H 15250 1375 50  0001 C CNN
+F 1 "PWR_FLAG" V 15250 1428 50  0000 L CNN
+F 2 "" H 15250 1300 50  0001 C CNN
+F 3 "~" H 15250 1300 50  0001 C CNN
+	1    15250 1300
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5C484AFE
-P 15150 1350
-F 0 "#FLG0102" H 15150 1425 50  0001 C CNN
-F 1 "PWR_FLAG" V 15150 1478 50  0000 L CNN
-F 2 "" H 15150 1350 50  0001 C CNN
-F 3 "~" H 15150 1350 50  0001 C CNN
-	1    15150 1350
+P 15250 1400
+F 0 "#FLG0102" H 15250 1475 50  0001 C CNN
+F 1 "PWR_FLAG" V 15250 1528 50  0000 L CNN
+F 2 "" H 15250 1400 50  0001 C CNN
+F 3 "~" H 15250 1400 50  0001 C CNN
+	1    15250 1400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -752,6 +842,9 @@ F 0 "R26" V 5850 3200 50  0000 C CNN
 F 1 "0R" V 5950 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
+F 4 "C17477" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F0000T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5950 3200
 	0    1    1    0   
 $EndComp
@@ -763,6 +856,9 @@ F 0 "R27" V 6050 3300 50  0000 C CNN
 F 1 "0R" V 5950 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 3300 50  0001 C CNN
 F 3 "~" H 5950 3300 50  0001 C CNN
+F 4 "C17477" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F0000T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5950 3300
 	0    1    1    0   
 $EndComp
@@ -800,6 +896,9 @@ F 0 "C11" V 5300 2800 50  0000 C CNN
 F 1 "1nF16V" V 5400 2800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5588 2650 50  0001 C CNN
 F 3 "~" H 5550 2800 50  0001 C CNN
+F 4 "C52278" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Guangdong Fenghua Advanced Tech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B103K500NT" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5550 2800
 	0    1    1    0   
 $EndComp
@@ -826,6 +925,9 @@ F 0 "J16" H 4005 3967 50  0000 C CNN
 F 1 "USB_B_Micro" H 4005 3876 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4100 3450 50  0001 C CNN
 F 3 "~" H 4100 3450 50  0001 C CNN
+F 4 "C136000" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "105017-0001" H 0   0   50  0001 C CNN "Mfg part no."
 	1    3950 3500
 	1    0    0    -1  
 $EndComp
@@ -841,6 +943,9 @@ F 0 "D7" H 4500 3700 50  0000 L CNN
 F 1 "PESD5V0S1BA" H 4300 3800 50  0000 L CNN
 F 2 "projfp:D_SOD-323" H 4550 3900 50  0001 C CNN
 F 3 "~" H 4550 3900 50  0001 C CNN
+F 4 "C19224" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Nexperia" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PESD5V0S1BA,115" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4550 3900
 	0    1    1    0   
 $EndComp
@@ -852,6 +957,9 @@ F 0 "D8" H 4650 4000 50  0000 L CNN
 F 1 "PESD5V0S1BA" H 4450 4100 50  0000 L CNN
 F 2 "projfp:D_SOD-323" H 4700 3900 50  0001 C CNN
 F 3 "~" H 4700 3900 50  0001 C CNN
+F 4 "C19224" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Nexperia" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PESD5V0S1BA,115" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4700 3900
 	0    1    1    0   
 $EndComp
@@ -924,6 +1032,9 @@ F 0 "Q4" H 5291 4896 50  0000 L CNN
 F 1 "S9014" H 5291 4805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 4775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF" H 5100 4850 50  0001 L CNN
+F 4 "C181164" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Guangdong Hottech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "S9014" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5100 4850
 	1    0    0    -1  
 $EndComp
@@ -935,6 +1046,9 @@ F 0 "Q5" H 5291 5396 50  0000 L CNN
 F 1 "S9014" H 5291 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 5275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF" H 5100 5350 50  0001 L CNN
+F 4 "C181164" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Guangdong Hottech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "S9014" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5100 5350
 	1    0    0    -1  
 $EndComp
@@ -946,6 +1060,9 @@ F 0 "R22" V 4650 4850 50  0000 C CNN
 F 1 "12K" V 4750 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 4850 50  0001 C CNN
 F 3 "~" H 4750 4850 50  0001 C CNN
+F 4 "C17444" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1202T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4750 4850
 	0    1    1    0   
 $EndComp
@@ -957,6 +1074,9 @@ F 0 "R23" V 4650 5350 50  0000 C CNN
 F 1 "12K" V 4750 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 5350 50  0001 C CNN
 F 3 "~" H 4750 5350 50  0001 C CNN
+F 4 "C17444" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1202T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4750 5350
 	0    1    1    0   
 $EndComp
@@ -978,15 +1098,15 @@ USB to serial
 $Comp
 L power:+5V #PWR0125
 U 1 1 5C49F8E4
-P 13450 1300
-F 0 "#PWR0125" H 13450 1150 50  0001 C CNN
-F 1 "+5V" V 13465 1473 50  0000 C CNN
-F 2 "" H 13450 1300 50  0001 C CNN
-F 3 "" H 13450 1300 50  0001 C CNN
-	1    13450 1300
+P 13400 1550
+F 0 "#PWR0125" H 13400 1400 50  0001 C CNN
+F 1 "+5V" V 13415 1723 50  0000 C CNN
+F 2 "" H 13400 1550 50  0001 C CNN
+F 3 "" H 13400 1550 50  0001 C CNN
+	1    13400 1550
 	0    1    1    0   
 $EndComp
-Text GLabel 12850 2250 0    50   BiDi ~ 0
+Text GLabel 12950 1800 0    50   BiDi ~ 0
 VUSB
 Text GLabel 12850 1300 0    50   BiDi ~ 0
 5V1
@@ -1022,6 +1142,9 @@ F 0 "R5" V 2950 6400 50  0000 C CNN
 F 1 "2.2K" V 3050 6400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 6400 50  0001 C CNN
 F 3 "~" H 3050 6400 50  0001 C CNN
+F 4 "C17520" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F2201T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    3050 6400
 	0    1    1    0   
 $EndComp
@@ -1033,6 +1156,9 @@ F 0 "D1" H 3400 6200 50  0000 C CNN
 F 1 "LED_BED" H 3400 6300 50  0000 C CNN
 F 2 "projfp:LED_0805" H 3400 6400 50  0001 C CNN
 F 3 "~" H 3400 6400 50  0001 C CNN
+F 4 "C72037" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Everlight Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "17-21SURC/S530-A3/TR8" H 0   0   50  0001 C CNN "Mfg part no."
 	1    3400 6400
 	-1   0    0    1   
 $EndComp
@@ -1044,6 +1170,9 @@ F 0 "J3" H 2520 6617 50  0000 C CNN
 F 1 "BED" H 2520 6526 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 2600 6400 50  0001 C CNN
 F 3 "~" H 2600 6400 50  0001 C CNN
+F 4 "C89120" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Phoenix Contact" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MKDS3/2-5.08" H 0   0   50  0001 C CNN "Mfg part no."
 	1    2600 6400
 	-1   0    0    -1  
 $EndComp
@@ -1083,6 +1212,9 @@ F 0 "R9" V 1450 6450 50  0000 C CNN
 F 1 "2.2K" V 1550 6450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1480 6450 50  0001 C CNN
 F 3 "~" H 1550 6450 50  0001 C CNN
+F 4 "C17520" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F2201T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1550 6450
 	0    1    1    0   
 $EndComp
@@ -1094,6 +1226,9 @@ F 0 "J7" H 1020 6667 50  0000 C CNN
 F 1 "E0" H 1020 6576 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1100 6450 50  0001 C CNN
 F 3 "~" H 1100 6450 50  0001 C CNN
+F 4 "C91153" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Phoenix Contact" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MKDSN1.5/2-5.08" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1100 6450
 	-1   0    0    -1  
 $EndComp
@@ -1105,6 +1240,9 @@ F 0 "R10" V 1450 6900 50  0000 C CNN
 F 1 "10R" V 1550 6900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1480 6900 50  0001 C CNN
 F 3 "~" H 1550 6900 50  0001 C CNN
+F 4 "C17415" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F100JT5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1550 6900
 	0    1    1    0   
 $EndComp
@@ -1116,6 +1254,9 @@ F 0 "R11" V 1450 7200 50  0000 C CNN
 F 1 "100K" V 1550 7200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1480 7200 50  0001 C CNN
 F 3 "~" H 1550 7200 50  0001 C CNN
+F 4 "C149504" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1003T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1550 7200
 	0    1    1    0   
 $EndComp
@@ -1138,6 +1279,9 @@ F 0 "R13" V 7800 8800 50  0000 C CNN
 F 1 "10R" V 7900 8800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 8800 50  0001 C CNN
 F 3 "~" H 7900 8800 50  0001 C CNN
+F 4 "C17415" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F100JT5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7900 8800
 	0    1    1    0   
 $EndComp
@@ -1149,6 +1293,9 @@ F 0 "R14" V 7800 9100 50  0000 C CNN
 F 1 "100K" V 7900 9100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 9100 50  0001 C CNN
 F 3 "~" H 7900 9100 50  0001 C CNN
+F 4 "C149504" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1003T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7900 9100
 	0    1    1    0   
 $EndComp
@@ -1160,6 +1307,9 @@ F 0 "J10" H 7370 8567 50  0000 C CNN
 F 1 "PART_FAN" H 7370 8476 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7450 8350 50  0001 C CNN
 F 3 "~" H 7450 8350 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7450 8350
 	-1   0    0    -1  
 $EndComp
@@ -1232,6 +1382,9 @@ F 0 "U8" H 14350 3865 50  0000 C CNN
 F 1 "Pololu_board" H 14350 3774 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 14200 3750 50  0001 C CNN
 F 3 "" H 14500 3400 50  0001 C CNN
+F 4 "C27438" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "x2" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14500 3400
 	1    0    0    -1  
 $EndComp
@@ -1305,6 +1458,9 @@ F 0 "U5" H 11800 3865 50  0000 C CNN
 F 1 "Pololu_board" H 11800 3774 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 11650 3750 50  0001 C CNN
 F 3 "" H 11950 3400 50  0001 C CNN
+F 4 "C27438" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "x2" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11950 3400
 	1    0    0    -1  
 $EndComp
@@ -1316,6 +1472,9 @@ F 0 "J21" H 12580 3492 50  0000 L CNN
 F 1 "X_MOTOR" H 12580 3401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12500 3500 50  0001 C CNN
 F 3 "~" H 12500 3500 50  0001 C CNN
+F 4 "C124378" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124378" H 0   0   50  0001 C CNN "Mfg part no."
 	1    12500 3500
 	1    0    0    -1  
 $EndComp
@@ -1365,6 +1524,9 @@ F 0 "C15" V 12750 3250 50  0000 L CNN
 F 1 "100uF35V" V 12850 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 12650 3150 50  0001 C CNN
 F 3 "~" H 12650 3150 50  0001 C CNN
+F 4 "C97811" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Semtech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CS1V101M-CRE77" H 0   0   50  0001 C CNN "Mfg part no."
 	1    12650 3150
 	1    0    0    -1  
 $EndComp
@@ -1401,6 +1563,9 @@ F 0 "U6" H 11800 5065 50  0000 C CNN
 F 1 "Pololu_board" H 11800 4974 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 11650 4950 50  0001 C CNN
 F 3 "" H 11950 4600 50  0001 C CNN
+F 4 "C27438" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "x2" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11950 4600
 	1    0    0    -1  
 $EndComp
@@ -1474,6 +1639,9 @@ F 0 "U9" H 14350 5065 50  0000 C CNN
 F 1 "Pololu_board" H 14350 4974 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 14200 4950 50  0001 C CNN
 F 3 "" H 14500 4600 50  0001 C CNN
+F 4 "C27438" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "x2" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14500 4600
 	1    0    0    -1  
 $EndComp
@@ -1549,6 +1717,9 @@ F 0 "C16" V 12750 4450 50  0000 L CNN
 F 1 "100uF35V" V 12850 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 12650 4350 50  0001 C CNN
 F 3 "~" H 12650 4350 50  0001 C CNN
+F 4 "C97811" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Semtech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CS1V101M-CRE77" H 0   0   50  0001 C CNN "Mfg part no."
 	1    12650 4350
 	1    0    0    -1  
 $EndComp
@@ -1561,6 +1732,9 @@ F 0 "C17" V 15300 3250 50  0000 L CNN
 F 1 "100uF35V" V 15400 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 15200 3150 50  0001 C CNN
 F 3 "~" H 15200 3150 50  0001 C CNN
+F 4 "C97811" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Semtech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CS1V101M-CRE77" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15200 3150
 	1    0    0    -1  
 $EndComp
@@ -1573,6 +1747,9 @@ F 0 "C18" V 15300 4450 50  0000 L CNN
 F 1 "100uF35V" V 15400 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 15200 4350 50  0001 C CNN
 F 3 "~" H 15200 4350 50  0001 C CNN
+F 4 "C97811" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Semtech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CS1V101M-CRE77" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15200 4350
 	1    0    0    -1  
 $EndComp
@@ -1585,6 +1762,9 @@ F 0 "J23" H 15130 3492 50  0000 L CNN
 F 1 "Y_MOTOR" H 15130 3401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15050 3500 50  0001 C CNN
 F 3 "~" H 15050 3500 50  0001 C CNN
+F 4 "C124378" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124378" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15050 3500
 	1    0    0    -1  
 $EndComp
@@ -1596,6 +1776,9 @@ F 0 "J24" H 15130 4692 50  0000 L CNN
 F 1 "E0_MOTOR" H 15130 4601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15050 4700 50  0001 C CNN
 F 3 "~" H 15050 4700 50  0001 C CNN
+F 4 "C124378" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124378" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15050 4700
 	1    0    0    -1  
 $EndComp
@@ -1607,6 +1790,9 @@ F 0 "J22" H 13950 2700 50  0000 L CNN
 F 1 "Z_MOTOR" H 13850 2600 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 13950 2400 50  0001 C CNN
 F 3 "~" H 13950 2400 50  0001 C CNN
+F 4 "C124386" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124386" H 0   0   50  0001 C CNN "Mfg part no."
 	1    13950 2400
 	1    0    0    -1  
 $EndComp
@@ -1618,6 +1804,9 @@ F 0 "D3" H 1900 6250 50  0000 C CNN
 F 1 "LED_E0" H 1900 6350 50  0000 C CNN
 F 2 "projfp:LED_0805" H 1900 6450 50  0001 C CNN
 F 3 "~" H 1900 6450 50  0001 C CNN
+F 4 "C72037" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Everlight Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "17-21SURC/S530-A3/TR8" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1900 6450
 	-1   0    0    1   
 $EndComp
@@ -1629,6 +1818,9 @@ F 0 "J12" H 570 8167 50  0000 C CNN
 F 1 "T_BED" H 570 8076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 650 7950 50  0001 C CNN
 F 3 "~" H 650 7950 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    650  7950
 	-1   0    0    -1  
 $EndComp
@@ -1640,6 +1832,9 @@ F 0 "R16" V 1050 7850 50  0000 C CNN
 F 1 "4.7K" V 1150 7850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1080 7850 50  0001 C CNN
 F 3 "~" H 1150 7850 50  0001 C CNN
+F 4 "C17673" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F4701T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1150 7850
 	0    1    1    0   
 $EndComp
@@ -1648,9 +1843,12 @@ L Device:C C5
 U 1 1 5C4A0CB1
 P 1000 8100
 F 0 "C5" H 800 8100 50  0000 C CNN
-F 1 "22uF10V" H 800 8200 50  0000 C CNN
+F 1 "22uF6.3V" H 800 8200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1038 7950 50  0001 C CNN
 F 3 "~" H 1000 8100 50  0001 C CNN
+F 4 "C5674" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1000 8100
 	-1   0    0    1   
 $EndComp
@@ -1702,6 +1900,9 @@ F 0 "J13" H 1720 8167 50  0000 C CNN
 F 1 "T_E0" H 1720 8076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1800 7950 50  0001 C CNN
 F 3 "~" H 1800 7950 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1800 7950
 	-1   0    0    -1  
 $EndComp
@@ -1713,6 +1914,9 @@ F 0 "R17" V 2200 7850 50  0000 C CNN
 F 1 "4.7K" V 2300 7850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2230 7850 50  0001 C CNN
 F 3 "~" H 2300 7850 50  0001 C CNN
+F 4 "C17673" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F4701T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    2300 7850
 	0    1    1    0   
 $EndComp
@@ -1721,9 +1925,12 @@ L Device:C C6
 U 1 1 5C484861
 P 2150 8100
 F 0 "C6" H 1950 8100 50  0000 C CNN
-F 1 "22uF10V" H 1950 8200 50  0000 C CNN
+F 1 "22uF6.3V" H 1950 8200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 7950 50  0001 C CNN
 F 3 "~" H 2150 8100 50  0001 C CNN
+F 4 "C5674" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "Mfg part no."
 	1    2150 8100
 	-1   0    0    1   
 $EndComp
@@ -1771,8 +1978,11 @@ U 1 1 5C4920ED
 P 800 9000
 F 0 "J1" H 720 9317 50  0000 C CNN
 F 1 "X_MIN" H 720 9226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 800 9000 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical" H 800 9000 50  0001 C CNN
 F 3 "~" H 800 9000 50  0001 C CNN
+F 4 "B3B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "Mfg part no."
+F 5 "C144394" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 6 "JST Sales America" H 0   0   50  0001 C CNN "Manufacturer"
 	1    800  9000
 	-1   0    0    -1  
 $EndComp
@@ -1806,6 +2016,9 @@ F 0 "R3" V 1000 10350 50  0000 C CNN
 F 1 "10K" V 1100 10350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1030 10350 50  0001 C CNN
 F 3 "~" H 1100 10350 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1100 10350
 	0    1    1    0   
 $EndComp
@@ -1814,9 +2027,12 @@ L Device:C C1
 U 1 1 5C49257E
 P 1500 10350
 F 0 "C1" V 1450 10450 50  0000 C CNN
-F 1 "100nF16V" V 1550 10600 50  0000 C CNN
+F 1 "100nF25V" V 1550 10600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 10200 50  0001 C CNN
 F 3 "~" H 1500 10350 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1500 10350
 	0    1    1    0   
 $EndComp
@@ -1830,8 +2046,11 @@ U 1 1 5C509A87
 P 2100 9000
 F 0 "J5" H 2020 9317 50  0000 C CNN
 F 1 "Y_MIN" H 2020 9226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2100 9000 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical" H 2100 9000 50  0001 C CNN
 F 3 "~" H 2100 9000 50  0001 C CNN
+F 4 "B3B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "Mfg part no."
+F 5 "C144394" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 6 "JST Sales America" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2100 9000
 	-1   0    0    -1  
 $EndComp
@@ -1865,6 +2084,9 @@ F 0 "R8" V 1000 10650 50  0000 C CNN
 F 1 "10K" V 1100 10650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1030 10650 50  0001 C CNN
 F 3 "~" H 1100 10650 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1100 10650
 	0    1    1    0   
 $EndComp
@@ -1873,9 +2095,12 @@ L Device:C C3
 U 1 1 5C509AA1
 P 1500 10650
 F 0 "C3" V 1450 10750 50  0000 C CNN
-F 1 "100nF16V" V 1550 10900 50  0000 C CNN
+F 1 "100nF25V" V 1550 10900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 10500 50  0001 C CNN
 F 3 "~" H 1500 10650 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1500 10650
 	0    1    1    0   
 $EndComp
@@ -1889,8 +2114,11 @@ U 1 1 5C51082E
 P 800 9600
 F 0 "J2" H 720 9917 50  0000 C CNN
 F 1 "Z_MIN" H 720 9826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 800 9600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical" H 800 9600 50  0001 C CNN
 F 3 "~" H 800 9600 50  0001 C CNN
+F 4 "B3B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "Mfg part no."
+F 5 "C144394" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 6 "JST Sales America" H 0   0   50  0001 C CNN "Manufacturer"
 	1    800  9600
 	-1   0    0    -1  
 $EndComp
@@ -1924,6 +2152,9 @@ F 0 "R4" V 1000 10950 50  0000 C CNN
 F 1 "10K" V 1100 10950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1030 10950 50  0001 C CNN
 F 3 "~" H 1100 10950 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1100 10950
 	0    1    1    0   
 $EndComp
@@ -1932,9 +2163,12 @@ L Device:C C2
 U 1 1 5C510848
 P 1500 10950
 F 0 "C2" V 1450 11050 50  0000 C CNN
-F 1 "100nF16V" V 1550 11200 50  0000 C CNN
+F 1 "100nF25V" V 1550 11200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 10800 50  0001 C CNN
 F 3 "~" H 1500 10950 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1500 10950
 	0    1    1    0   
 $EndComp
@@ -1948,8 +2182,11 @@ U 1 1 5C51836F
 P 2100 9600
 F 0 "J6" H 2020 9917 50  0000 C CNN
 F 1 "Z_PROBE" H 2020 9826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2100 9600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical" H 2100 9600 50  0001 C CNN
 F 3 "~" H 2100 9600 50  0001 C CNN
+F 4 "B3B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "Mfg part no."
+F 5 "C144394" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 6 "JST Sales America" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2100 9600
 	-1   0    0    -1  
 $EndComp
@@ -1974,6 +2211,9 @@ F 0 "D2" H 2300 9600 50  0000 C CNN
 F 1 "1N4148W" H 2550 9550 50  0000 C CNN
 F 2 "projfp:D_SOD-123" H 2450 9525 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2450 9700 50  0001 C CNN
+F 4 "C81598" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Semtech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1N4148W" H 0   0   50  0001 C CNN "Mfg part no."
 	1    2450 9700
 	1    0    0    -1  
 $EndComp
@@ -1989,6 +2229,9 @@ F 0 "R15" V 15500 850 50  0000 C CNN
 F 1 "12K" V 15400 850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 15330 850 50  0001 C CNN
 F 3 "~" H 15400 850 50  0001 C CNN
+F 4 "C17444" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1202T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15400 850 
 	0    1    1    0   
 $EndComp
@@ -2008,12 +2251,12 @@ EN
 $Comp
 L power:GND #PWR0159
 U 1 1 5C570F7F
-P 14700 850
-F 0 "#PWR0159" H 14700 600 50  0001 C CNN
-F 1 "GND" H 14550 800 50  0000 C CNN
-F 2 "" H 14700 850 50  0001 C CNN
-F 3 "" H 14700 850 50  0001 C CNN
-	1    14700 850 
+P 14700 1100
+F 0 "#PWR0159" H 14700 850 50  0001 C CNN
+F 1 "GND" H 14550 1050 50  0000 C CNN
+F 2 "" H 14700 1100 50  0001 C CNN
+F 3 "" H 14700 1100 50  0001 C CNN
+	1    14700 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2032,6 +2275,9 @@ F 0 "SW1" H 15050 950 50  0000 C CNN
 F 1 "RESET" H 14950 750 50  0000 C CNN
 F 2 "projfp:6x6mmTactileSwitch" H 14950 1050 50  0001 C CNN
 F 3 "" H 14950 1050 50  0001 C CNN
+F 4 "C83206" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Korean Hroparts Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "K2-6639SP-C4SC-04" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14950 850 
 	1    0    0    -1  
 $EndComp
@@ -2048,6 +2294,9 @@ F 0 "J15" H 4500 8867 50  0000 C CNN
 F 1 "AUX1" H 4500 8776 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 4450 8550 50  0001 C CNN
 F 3 "~" H 4450 8550 50  0001 C CNN
+F 4 "C9135" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C9135" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4450 8550
 	1    0    0    -1  
 $EndComp
@@ -2117,6 +2366,9 @@ F 0 "R19" H 5050 9400 50  0000 C CNN
 F 1 "4.7K" V 4900 9400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4830 9400 50  0001 C CNN
 F 3 "~" H 4900 9400 50  0001 C CNN
+F 4 "C17673" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F4701T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4900 9400
 	-1   0    0    1   
 $EndComp
@@ -2128,6 +2380,9 @@ F 0 "R20" H 4950 9400 50  0000 C CNN
 F 1 "4.7K" V 5100 9400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5030 9400 50  0001 C CNN
 F 3 "~" H 5100 9400 50  0001 C CNN
+F 4 "C17673" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F4701T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5100 9400
 	-1   0    0    1   
 $EndComp
@@ -2208,6 +2463,9 @@ F 0 "JP1" H 13350 6074 50  0000 C CNN
 F 1 "X_MS1" H 13350 5983 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13350 5850 50  0001 C CNN
 F 3 "~" H 13350 5850 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    13350 5850
 	1    0    0    -1  
 $EndComp
@@ -2219,6 +2477,9 @@ F 0 "JP5" H 14100 6074 50  0000 C CNN
 F 1 "X_MS2" H 14100 5983 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14100 5850 50  0001 C CNN
 F 3 "~" H 14100 5850 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14100 5850
 	1    0    0    -1  
 $EndComp
@@ -2230,6 +2491,9 @@ F 0 "JP9" H 14750 6074 50  0000 C CNN
 F 1 "X_MS3" H 14750 5983 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14750 5850 50  0001 C CNN
 F 3 "~" H 14750 5850 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14750 5850
 	1    0    0    -1  
 $EndComp
@@ -2241,6 +2505,9 @@ F 0 "JP13" H 15400 6074 50  0000 C CNN
 F 1 "X_RST" H 15400 5983 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15400 5850 50  0001 C CNN
 F 3 "~" H 15400 5850 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15400 5850
 	1    0    0    -1  
 $EndComp
@@ -2252,6 +2519,9 @@ F 0 "J20" H 11770 9367 50  0000 C CNN
 F 1 "CS_PINS" H 11770 9276 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 11850 9050 50  0001 C CNN
 F 3 "~" H 11850 9050 50  0001 C CNN
+F 4 "C124379" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124379" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11850 9050
 	-1   0    0    -1  
 $EndComp
@@ -2340,6 +2610,9 @@ F 0 "JP2" H 13350 7124 50  0000 C CNN
 F 1 "Y_MS1" H 13350 7033 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13350 6900 50  0001 C CNN
 F 3 "~" H 13350 6900 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    13350 6900
 	1    0    0    -1  
 $EndComp
@@ -2351,6 +2624,9 @@ F 0 "JP6" H 14100 7124 50  0000 C CNN
 F 1 "Y_MS2" H 14100 7033 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14100 6900 50  0001 C CNN
 F 3 "~" H 14100 6900 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14100 6900
 	1    0    0    -1  
 $EndComp
@@ -2362,6 +2638,9 @@ F 0 "JP10" H 14750 7124 50  0000 C CNN
 F 1 "Y_MS3" H 14750 7033 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14750 6900 50  0001 C CNN
 F 3 "~" H 14750 6900 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14750 6900
 	1    0    0    -1  
 $EndComp
@@ -2373,6 +2652,9 @@ F 0 "JP14" H 15400 7124 50  0000 C CNN
 F 1 "Y_RST" H 15400 7033 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15400 6900 50  0001 C CNN
 F 3 "~" H 15400 6900 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15400 6900
 	1    0    0    -1  
 $EndComp
@@ -2435,6 +2717,9 @@ F 0 "JP3" H 13350 8174 50  0000 C CNN
 F 1 "Z_MS1" H 13350 8083 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13350 7950 50  0001 C CNN
 F 3 "~" H 13350 7950 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    13350 7950
 	1    0    0    -1  
 $EndComp
@@ -2446,6 +2731,9 @@ F 0 "JP7" H 14100 8174 50  0000 C CNN
 F 1 "Z_MS2" H 14100 8083 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14100 7950 50  0001 C CNN
 F 3 "~" H 14100 7950 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14100 7950
 	1    0    0    -1  
 $EndComp
@@ -2457,6 +2745,9 @@ F 0 "JP11" H 14750 8174 50  0000 C CNN
 F 1 "Z_MS3" H 14750 8083 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14750 7950 50  0001 C CNN
 F 3 "~" H 14750 7950 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14750 7950
 	1    0    0    -1  
 $EndComp
@@ -2468,6 +2759,9 @@ F 0 "JP15" H 15400 8174 50  0000 C CNN
 F 1 "Z_RST" H 15400 8083 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15400 7950 50  0001 C CNN
 F 3 "~" H 15400 7950 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15400 7950
 	1    0    0    -1  
 $EndComp
@@ -2530,6 +2824,9 @@ F 0 "JP4" H 13350 9224 50  0000 C CNN
 F 1 "E0_MS1" H 13350 9133 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13350 9000 50  0001 C CNN
 F 3 "~" H 13350 9000 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    13350 9000
 	1    0    0    -1  
 $EndComp
@@ -2541,6 +2838,9 @@ F 0 "JP8" H 14100 9224 50  0000 C CNN
 F 1 "E0_MS2" H 14100 9133 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14100 9000 50  0001 C CNN
 F 3 "~" H 14100 9000 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14100 9000
 	1    0    0    -1  
 $EndComp
@@ -2552,6 +2852,9 @@ F 0 "JP12" H 14750 9224 50  0000 C CNN
 F 1 "E0_MS3" H 14750 9133 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14750 9000 50  0001 C CNN
 F 3 "~" H 14750 9000 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    14750 9000
 	1    0    0    -1  
 $EndComp
@@ -2563,6 +2866,9 @@ F 0 "JP16" H 15400 9224 50  0000 C CNN
 F 1 "E0_RST" H 15400 9133 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15400 9000 50  0001 C CNN
 F 3 "~" H 15400 9000 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15400 9000
 	1    0    0    -1  
 $EndComp
@@ -2707,12 +3013,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 5CD32FA1
-P 15150 1450
-F 0 "#FLG0106" H 15150 1525 50  0001 C CNN
-F 1 "PWR_FLAG" V 15150 1578 50  0000 L CNN
-F 2 "" H 15150 1450 50  0001 C CNN
-F 3 "~" H 15150 1450 50  0001 C CNN
-	1    15150 1450
+P 15250 1500
+F 0 "#FLG0106" H 15250 1575 50  0001 C CNN
+F 1 "PWR_FLAG" V 15250 1628 50  0000 L CNN
+F 2 "" H 15250 1500 50  0001 C CNN
+F 3 "~" H 15250 1500 50  0001 C CNN
+	1    15250 1500
 	0    1    1    0   
 $EndComp
 Text GLabel 8200 1000 2    50   BiDi ~ 0
@@ -2725,6 +3031,9 @@ F 0 "U3" H 5550 4250 50  0000 C CNN
 F 1 "CH340C" H 5600 4150 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5450 3050 50  0001 L CNN
 F 3 "http://www.datasheet5.com/pdf-local-2195953" H 5050 4400 50  0001 C CNN
+F 4 "C84681" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Jiangsu Qin Heng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CH340C" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5400 3600
 	1    0    0    -1  
 $EndComp
@@ -2736,6 +3045,9 @@ F 0 "J4" H 2200 5900 50  0000 L CNN
 F 1 "Micro_SD_Card_China" H 1850 5800 50  0000 L CNN
 F 2 "projfp:Conn_uSDcard" H 3950 5750 50  0001 C CNN
 F 3 "" H 1900 5150 50  0001 C CNN
+F 4 "C111196" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "SOFNG" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TF-15×15" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1900 5050
 	1    0    0    -1  
 $EndComp
@@ -2746,9 +3058,12 @@ L Device:C C19
 U 1 1 5C4E50E7
 P 1000 1000
 F 0 "C19" V 750 950 50  0000 L CNN
-F 1 "100uF10V" V 850 800 50  0000 L CNN
+F 1 "100uF6.3V" V 850 800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1038 850 50  0001 C CNN
 F 3 "~" H 1000 1000 50  0001 C CNN
+F 4 "C15008" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL31A107MQHNNNE" H 0   0   50  0001 C CNN "Mfg part no."
 	1    1000 1000
 	0    1    1    0   
 $EndComp
@@ -2859,6 +3174,9 @@ F 0 "R38" V 5450 6500 50  0000 C CNN
 F 1 "1K" V 5550 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 6550 50  0001 C CNN
 F 3 "~" H 5550 6550 50  0001 C CNN
+F 4 "C17513" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1001T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5550 6550
 	-1   0    0    1   
 $EndComp
@@ -2870,10 +3188,13 @@ F 0 "R35" V 5500 6850 50  0000 C CNN
 F 1 "1K" V 5400 6800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5330 6800 50  0001 C CNN
 F 3 "~" H 5400 6800 50  0001 C CNN
+F 4 "C17513" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1001T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5400 6800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5600 6750 2    50   BiDi ~ 0
+Text GLabel 5950 6650 2    50   BiDi ~ 0
 TO_HEATER_BED
 Text GLabel 3200 6850 0    50   BiDi ~ 0
 TO_HEATER_BED
@@ -2895,6 +3216,9 @@ F 0 "U10" H 5000 6625 50  0000 C CNN
 F 1 "TLP182" H 5000 6534 50  0000 C CNN
 F 2 "Package_SO:MFSOP6-4_4.4x3.6mm_P1.27mm" H 5000 6000 50  0001 C CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=11793&prodName=TLP184" H 5050 6300 50  0001 L CNN
+F 4 "C96457" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "TOSHIBA" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TLP182(GB-TPL,E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5000 6300
 	1    0    0    -1  
 $EndComp
@@ -2965,6 +3289,9 @@ F 0 "R36" V 4600 6200 50  0000 C CNN
 F 1 "330R" V 4500 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 6200 50  0001 C CNN
 F 3 "~" H 4500 6200 50  0001 C CNN
+F 4 "C17630" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F3300T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4500 6200
 	0    -1   -1   0   
 $EndComp
@@ -2974,13 +3301,6 @@ Wire Wire Line
 	5600 6200 5300 6200
 Wire Wire Line
 	5300 6400 5550 6400
-Wire Wire Line
-	5550 6700 5550 6750
-Wire Wire Line
-	5600 6750 5550 6750
-Connection ~ 5550 6750
-Wire Wire Line
-	5550 6750 5550 6800
 Wire Wire Line
 	4700 6200 4650 6200
 $Comp
@@ -3001,23 +3321,23 @@ Wire Wire Line
 $Comp
 L power:GNDD #PWR0105
 U 1 1 5C844777
-P 15150 1550
-F 0 "#PWR0105" H 15150 1300 50  0001 C CNN
-F 1 "GNDD" V 15150 1350 50  0000 C CNN
-F 2 "" H 15150 1550 50  0001 C CNN
-F 3 "" H 15150 1550 50  0001 C CNN
-	1    15150 1550
+P 15250 1600
+F 0 "#PWR0105" H 15250 1350 50  0001 C CNN
+F 1 "GNDD" V 15250 1400 50  0000 C CNN
+F 2 "" H 15250 1600 50  0001 C CNN
+F 3 "" H 15250 1600 50  0001 C CNN
+	1    15250 1600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0107
 U 1 1 5C85A97D
-P 15150 1550
-F 0 "#FLG0107" H 15150 1625 50  0001 C CNN
-F 1 "PWR_FLAG" V 15150 1678 50  0000 L CNN
-F 2 "" H 15150 1550 50  0001 C CNN
-F 3 "~" H 15150 1550 50  0001 C CNN
-	1    15150 1550
+P 15250 1600
+F 0 "#FLG0107" H 15250 1675 50  0001 C CNN
+F 1 "PWR_FLAG" V 15250 1728 50  0000 L CNN
+F 2 "" H 15250 1600 50  0001 C CNN
+F 3 "~" H 15250 1600 50  0001 C CNN
+	1    15250 1600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3025,9 +3345,12 @@ L Diode:1N5819 D14
 U 1 1 5C5AA3CF
 P 13100 1300
 F 0 "D14" H 13100 1084 50  0000 C CNN
-F 1 "1N5819" H 13100 1175 50  0000 C CNN
+F 1 "1N5819W" H 13100 1175 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 13100 1125 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13100 1300 50  0001 C CNN
+F 4 "C169540" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shandong Jingdao Microelectronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1N5819W" H 0   0   50  0001 C CNN "Mfg part no."
 	1    13100 1300
 	-1   0    0    1   
 $EndComp
@@ -3041,27 +3364,19 @@ Wire Wire Line
 $Comp
 L Diode:1N5819 D15
 U 1 1 5C686D43
-P 13100 1650
-F 0 "D15" H 13100 1434 50  0000 C CNN
-F 1 "1N5819" H 13100 1525 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 13100 1475 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13100 1650 50  0001 C CNN
-	1    13100 1650
+P 13100 1800
+F 0 "D15" H 13150 1700 50  0000 C CNN
+F 1 "1N5819W" H 13150 1900 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13100 1625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13100 1800 50  0001 C CNN
+F 4 "C169540" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shandong Jingdao Microelectronics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1N5819W" H 0   0   50  0001 C CNN "Mfg part no."
+	1    13100 1800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	12850 1300 12950 1300
-Wire Wire Line
-	12850 1650 12950 1650
-Wire Wire Line
-	13250 1300 13350 1300
-Wire Wire Line
-	13250 1650 13350 1650
-Wire Wire Line
-	13350 1650 13350 1300
-Connection ~ 13350 1300
-Wire Wire Line
-	13350 1300 13450 1300
 Wire Wire Line
 	5200 5150 5350 5150
 Wire Wire Line
@@ -3100,9 +3415,12 @@ L 74xx:74HC595 U7
 U 1 1 5CE9A6FE
 P 7700 4000
 F 0 "U7" H 7450 4700 50  0000 C CNN
-F 1 "74HC595" H 7400 4600 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7700 4000 50  0001 C CNN
+F 1 "74HCT595" H 7400 4600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7700 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7700 4000 50  0001 C CNN
+F 4 "C152276" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "ON Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MC74HCT595ADTR2G" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7700 4000
 	1    0    0    -1  
 $EndComp
@@ -3111,9 +3429,12 @@ L 74xx:74HC595 U13
 U 1 1 5CEB3423
 P 9200 4000
 F 0 "U13" H 8950 4700 50  0000 C CNN
-F 1 "74HC595" H 8900 4600 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9200 4000 50  0001 C CNN
+F 1 "74HCT595" H 8900 4600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9200 4000 50  0001 C CNN
+F 4 "C152276" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "ON Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MC74HCT595ADTR2G" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9200 4000
 	1    0    0    -1  
 $EndComp
@@ -3122,9 +3443,12 @@ L Device:C C20
 U 1 1 5CEB5AAA
 P 8500 3150
 F 0 "C20" H 8300 3150 50  0000 C CNN
-F 1 "100nF16V" H 8300 3050 50  0000 C CNN
+F 1 "100nF25V" H 8300 3050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 3000 50  0001 C CNN
 F 3 "~" H 8500 3150 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8500 3150
 	-1   0    0    1   
 $EndComp
@@ -3133,9 +3457,12 @@ L Device:C C21
 U 1 1 5CEB6598
 P 9650 3150
 F 0 "C21" H 9450 3150 50  0000 C CNN
-F 1 "100nF16V" H 9450 3050 50  0000 C CNN
+F 1 "100nF25V" H 9450 3050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9688 3000 50  0001 C CNN
 F 3 "~" H 9650 3150 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9650 3150
 	-1   0    0    1   
 $EndComp
@@ -3337,6 +3664,9 @@ F 0 "J26" H 6100 9017 50  0000 C CNN
 F 1 "EXP3" H 6100 8926 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 6050 8600 50  0001 C CNN
 F 3 "~" H 6050 8600 50  0001 C CNN
+F 4 "C5665" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C5665" H 0   0   50  0001 C CNN "Mfg part no."
 	1    6050 8600
 	1    0    0    -1  
 $EndComp
@@ -3345,9 +3675,12 @@ L 74xx:74HC595 U14
 U 1 1 5D23E4F9
 P 7700 6150
 F 0 "U14" H 7450 6850 50  0000 C CNN
-F 1 "74HC595" H 7400 6750 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7700 6150 50  0001 C CNN
+F 1 "74HCT595" H 7400 6750 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7700 6150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7700 6150 50  0001 C CNN
+F 4 "C152276" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "ON Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MC74HCT595ADTR2G" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7700 6150
 	1    0    0    -1  
 $EndComp
@@ -3356,9 +3689,12 @@ L 74xx:74HC595 U15
 U 1 1 5D23E4FF
 P 9200 6150
 F 0 "U15" H 8950 6850 50  0000 C CNN
-F 1 "74HC595" H 8900 6750 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9200 6150 50  0001 C CNN
+F 1 "74HCT595" H 8900 6750 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 9200 6150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9200 6150 50  0001 C CNN
+F 4 "C152276" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "ON Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MC74HCT595ADTR2G" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9200 6150
 	1    0    0    -1  
 $EndComp
@@ -3367,9 +3703,12 @@ L Device:C C24
 U 1 1 5D23E505
 P 8500 5300
 F 0 "C24" H 8300 5300 50  0000 C CNN
-F 1 "100nF16V" H 8300 5200 50  0000 C CNN
+F 1 "100nF25V" H 8300 5200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 5150 50  0001 C CNN
 F 3 "~" H 8500 5300 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8500 5300
 	-1   0    0    1   
 $EndComp
@@ -3378,9 +3717,12 @@ L Device:C C25
 U 1 1 5D23E50B
 P 9650 5300
 F 0 "C25" H 9450 5300 50  0000 C CNN
-F 1 "100nF16V" H 9450 5200 50  0000 C CNN
+F 1 "100nF25V" H 9450 5200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9688 5150 50  0001 C CNN
 F 3 "~" H 9650 5300 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9650 5300
 	-1   0    0    1   
 $EndComp
@@ -3549,9 +3891,12 @@ L Device:C C22
 U 1 1 5D4732E4
 P 850 2350
 F 0 "C22" V 600 2300 50  0000 L CNN
-F 1 "10uF16V" V 700 2150 50  0000 L CNN
+F 1 "22uF6.3V" V 700 2150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 888 2200 50  0001 C CNN
 F 3 "~" H 850 2350 50  0001 C CNN
+F 4 "C5674" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "Mfg part no."
 	1    850  2350
 	1    0    0    -1  
 $EndComp
@@ -3582,9 +3927,12 @@ L Device:C C23
 U 1 1 5D4A8179
 P 3150 5100
 F 0 "C23" V 2900 5050 50  0000 L CNN
-F 1 "100nF16V" V 3000 4900 50  0000 L CNN
+F 1 "100nF25V" V 3000 4900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3188 4950 50  0001 C CNN
 F 3 "~" H 3150 5100 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
 	1    3150 5100
 	1    0    0    -1  
 $EndComp
@@ -3626,6 +3974,9 @@ F 0 "R33" V 15050 2150 50  0000 C CNN
 F 1 "10K" V 15150 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 15080 2150 50  0001 C CNN
 F 3 "~" H 15150 2150 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15150 2150
 	0    1    1    0   
 $EndComp
@@ -3637,6 +3988,9 @@ F 0 "R32" V 15050 1950 50  0000 C CNN
 F 1 "10K" V 15150 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 15080 1950 50  0001 C CNN
 F 3 "~" H 15150 1950 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15150 1950
 	0    1    1    0   
 $EndComp
@@ -3659,6 +4013,9 @@ F 0 "R37" V 15050 2350 50  0000 C CNN
 F 1 "10K" V 15150 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 15080 2350 50  0001 C CNN
 F 3 "~" H 15150 2350 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15150 2350
 	0    1    1    0   
 $EndComp
@@ -3670,6 +4027,9 @@ F 0 "R39" V 15050 2550 50  0000 C CNN
 F 1 "10K" V 15150 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 15080 2550 50  0001 C CNN
 F 3 "~" H 15150 2550 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15150 2550
 	0    1    1    0   
 $EndComp
@@ -3722,6 +4082,9 @@ F 0 "R1" V 2600 900 50  0000 C CNN
 F 1 "10K" V 2700 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2630 900 50  0001 C CNN
 F 3 "~" H 2700 900 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    2700 900 
 	0    1    1    0   
 $EndComp
@@ -3769,17 +4132,6 @@ Wire Wire Line
 	3850 3900 3950 3900
 Connection ~ 3950 3900
 $Comp
-L Device:Jumper JP28
-U 1 1 5D22F12F
-P 12850 1950
-F 0 "JP28" V 12804 2077 50  0000 L CNN
-F 1 "VUSB_EN" V 12895 2077 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12850 1950 50  0001 C CNN
-F 3 "~" H 12850 1950 50  0001 C CNN
-	1    12850 1950
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Q_DUAL_NMOS_G1S2G2D2S1D1 Q6
 U 1 1 5D396A9A
 P 10100 8800
@@ -3787,6 +4139,9 @@ F 0 "Q6" H 10306 8846 50  0000 L CNN
 F 1 "WST3392" H 10306 8755 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 10300 8800 50  0001 C CNN
 F 3 "~" H 10300 8800 50  0001 C CNN
+F 4 "C148366" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Winsok Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WST3392" H 0   0   50  0001 C CNN "Mfg part no."
 	1    10100 8800
 	1    0    0    -1  
 $EndComp
@@ -3798,6 +4153,9 @@ F 0 "Q3" H 8406 10446 50  0000 L CNN
 F 1 "WST3392" H 8406 10355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 8400 10400 50  0001 C CNN
 F 3 "~" H 8400 10400 50  0001 C CNN
+F 4 "C148366" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Winsok Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WST3392" H 0   0   50  0001 C CNN "Mfg part no."
 	2    8200 10400
 	1    0    0    -1  
 $EndComp
@@ -3809,6 +4167,9 @@ F 0 "J11" H 6150 9917 50  0000 C CNN
 F 1 "UNUSED" H 6150 9826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6100 9500 50  0001 C CNN
 F 3 "~" H 6100 9500 50  0001 C CNN
+F 4 "C124387" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124387" H 0   0   50  0001 C CNN "Mfg part no."
 	1    6100 9500
 	1    0    0    -1  
 $EndComp
@@ -3822,6 +4183,9 @@ F 0 "R12" V 9600 8800 50  0000 C CNN
 F 1 "10R" V 9700 8800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9630 8800 50  0001 C CNN
 F 3 "~" H 9700 8800 50  0001 C CNN
+F 4 "C17415" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F100JT5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9700 8800
 	0    1    1    0   
 $EndComp
@@ -3833,6 +4197,9 @@ F 0 "R34" V 9600 9100 50  0000 C CNN
 F 1 "100K" V 9700 9100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9630 9100 50  0001 C CNN
 F 3 "~" H 9700 9100 50  0001 C CNN
+F 4 "C149504" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1003T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9700 9100
 	0    1    1    0   
 $EndComp
@@ -3844,6 +4211,9 @@ F 0 "J18" H 9170 8567 50  0000 C CNN
 F 1 "CASE_FAN" H 9170 8476 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9250 8350 50  0001 C CNN
 F 3 "~" H 9250 8350 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9250 8350
 	-1   0    0    -1  
 $EndComp
@@ -3890,6 +4260,9 @@ F 0 "JP23" H 10550 8700 50  0000 C CNN
 F 1 "CASE_ON" H 10500 8600 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10500 8450 50  0001 C CNN
 F 3 "~" H 10500 8450 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    10500 8450
 	1    0    0    -1  
 $EndComp
@@ -3906,6 +4279,9 @@ F 0 "Q3" H 8506 8846 50  0000 L CNN
 F 1 "WST3392" H 8506 8755 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 8500 8800 50  0001 C CNN
 F 3 "~" H 8500 8800 50  0001 C CNN
+F 4 "C148366" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Winsok Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WST3392" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8300 8800
 	1    0    0    -1  
 $EndComp
@@ -3919,6 +4295,9 @@ F 0 "R6" V 7700 10400 50  0000 C CNN
 F 1 "10R" V 7800 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7730 10400 50  0001 C CNN
 F 3 "~" H 7800 10400 50  0001 C CNN
+F 4 "C17415" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F100JT5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7800 10400
 	0    1    1    0   
 $EndComp
@@ -3930,6 +4309,9 @@ F 0 "R7" V 7700 10700 50  0000 C CNN
 F 1 "100K" V 7800 10700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7730 10700 50  0001 C CNN
 F 3 "~" H 7800 10700 50  0001 C CNN
+F 4 "C149504" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1003T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7800 10700
 	0    1    1    0   
 $EndComp
@@ -3938,9 +4320,12 @@ L Connector_Generic:Conn_01x02 J17
 U 1 1 5D814D05
 P 7350 9950
 F 0 "J17" H 7270 10167 50  0000 C CNN
-F 1 "E0_FAN" H 7270 10076 50  0000 C CNN
+F 1 "HS_FAN" H 7270 10076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7350 9950 50  0001 C CNN
 F 3 "~" H 7350 9950 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7350 9950
 	-1   0    0    -1  
 $EndComp
@@ -3975,7 +4360,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 9650 7650 9950
 Text Notes 6950 9550 0    79   ~ 16
-E0 fan
+Heat sink fan
 Wire Wire Line
 	7600 10400 7650 10400
 Connection ~ 7650 10400
@@ -3984,9 +4369,12 @@ L Device:Jumper JP21
 U 1 1 5D814D1F
 P 8600 10050
 F 0 "JP21" H 8650 10300 50  0000 C CNN
-F 1 "E0_ON" H 8600 10200 50  0000 C CNN
+F 1 "HS_ON" H 8600 10200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8600 10050 50  0001 C CNN
 F 3 "~" H 8600 10050 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    8600 10050
 	1    0    0    -1  
 $EndComp
@@ -4003,6 +4391,9 @@ F 0 "Q6" H 10456 10446 50  0000 L CNN
 F 1 "WST3392" H 10456 10355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 10450 10400 50  0001 C CNN
 F 3 "~" H 10450 10400 50  0001 C CNN
+F 4 "C148366" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Winsok Semicon" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WST3392" H 0   0   50  0001 C CNN "Mfg part no."
 	2    10250 10400
 	1    0    0    -1  
 $EndComp
@@ -4016,6 +4407,9 @@ F 0 "R40" V 9750 10400 50  0000 C CNN
 F 1 "10R" V 9850 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 10400 50  0001 C CNN
 F 3 "~" H 9850 10400 50  0001 C CNN
+F 4 "C17415" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F100JT5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9850 10400
 	0    1    1    0   
 $EndComp
@@ -4027,6 +4421,9 @@ F 0 "R42" V 9750 10700 50  0000 C CNN
 F 1 "100K" V 9850 10700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 10700 50  0001 C CNN
 F 3 "~" H 9850 10700 50  0001 C CNN
+F 4 "C149504" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1003T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9850 10700
 	0    1    1    0   
 $EndComp
@@ -4035,9 +4432,12 @@ L Connector_Generic:Conn_01x02 J19
 U 1 1 5D8352FC
 P 9400 9950
 F 0 "J19" H 9320 10167 50  0000 C CNN
-F 1 "E1_FAN" H 9320 10076 50  0000 C CNN
+F 1 "EXT_FAN" H 9320 10076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9400 9950 50  0001 C CNN
 F 3 "~" H 9400 9950 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    9400 9950
 	-1   0    0    -1  
 $EndComp
@@ -4072,7 +4472,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 9650 9700 9950
 Text Notes 9000 9550 0    79   ~ 16
-E1 fan
+Extra fan
 Wire Wire Line
 	9650 10400 9700 10400
 Connection ~ 9700 10400
@@ -4081,9 +4481,12 @@ L Device:Jumper JP24
 U 1 1 5D835316
 P 10650 10050
 F 0 "JP24" H 10700 10300 50  0000 C CNN
-F 1 "E1_ON" H 10650 10200 50  0000 C CNN
+F 1 "EXT_ON" H 10650 10200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10650 10050 50  0001 C CNN
 F 3 "~" H 10650 10050 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    10650 10050
 	1    0    0    -1  
 $EndComp
@@ -4099,9 +4502,12 @@ L Connector_Generic:Conn_01x02 J8
 U 1 1 5DCE9805
 P 2850 7950
 F 0 "J8" H 2770 8167 50  0000 C CNN
-F 1 "T_E0" H 2770 8076 50  0000 C CNN
+F 1 "T_EXT" H 2770 8076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2850 7950 50  0001 C CNN
 F 3 "~" H 2850 7950 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    2850 7950
 	-1   0    0    -1  
 $EndComp
@@ -4113,6 +4519,9 @@ F 0 "R2" V 3250 7850 50  0000 C CNN
 F 1 "4.7K" V 3350 7850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3280 7850 50  0001 C CNN
 F 3 "~" H 3350 7850 50  0001 C CNN
+F 4 "C17673" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F4701T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    3350 7850
 	0    1    1    0   
 $EndComp
@@ -4121,9 +4530,12 @@ L Device:C C26
 U 1 1 5DCE9811
 P 3200 8100
 F 0 "C26" H 3000 8100 50  0000 C CNN
-F 1 "22uF10V" H 3000 8200 50  0000 C CNN
+F 1 "22uF6.3V" H 3000 8200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 7950 50  0001 C CNN
 F 3 "~" H 3200 8100 50  0001 C CNN
+F 4 "C5674" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "Mfg part no."
 	1    3200 8100
 	-1   0    0    1   
 $EndComp
@@ -4171,6 +4583,9 @@ F 0 "J14" H 4300 10117 50  0000 C CNN
 F 1 "I2C/SPI" H 4300 10026 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4250 9700 50  0001 C CNN
 F 3 "~" H 4250 9700 50  0001 C CNN
+F 4 "C124387" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124387" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4250 9700
 	1    0    0    -1  
 $EndComp
@@ -4194,6 +4609,9 @@ F 0 "JP22" H 10450 7724 50  0000 C CNN
 F 1 "E1_MS1" H 10450 7633 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10450 7500 50  0001 C CNN
 F 3 "~" H 10450 7500 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    10450 7500
 	1    0    0    -1  
 $EndComp
@@ -4205,6 +4623,9 @@ F 0 "JP25" H 11200 7724 50  0000 C CNN
 F 1 "E1_MS2" H 11200 7633 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11200 7500 50  0001 C CNN
 F 3 "~" H 11200 7500 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11200 7500
 	1    0    0    -1  
 $EndComp
@@ -4216,6 +4637,9 @@ F 0 "JP26" H 11850 7724 50  0000 C CNN
 F 1 "E1_MS3" H 11850 7633 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11850 7500 50  0001 C CNN
 F 3 "~" H 11850 7500 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11850 7500
 	1    0    0    -1  
 $EndComp
@@ -4227,6 +4651,9 @@ F 0 "JP27" H 12500 7724 50  0000 C CNN
 F 1 "E1_RST" H 12500 7633 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12500 7500 50  0001 C CNN
 F 3 "~" H 12500 7500 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    12500 7500
 	1    0    0    -1  
 $EndComp
@@ -4301,6 +4728,9 @@ F 0 "U11" H 11800 6515 50  0000 C CNN
 F 1 "Pololu_board" H 11800 6424 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 11650 6400 50  0001 C CNN
 F 3 "" H 11950 6050 50  0001 C CNN
+F 4 "C27438" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Boom Precision Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "x2" H 0   0   50  0001 C CNN "Mfg part no."
 	1    11950 6050
 	1    0    0    -1  
 $EndComp
@@ -4368,6 +4798,9 @@ F 0 "C27" V 12750 5900 50  0000 L CNN
 F 1 "100uF35V" V 12850 5700 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 12650 5800 50  0001 C CNN
 F 3 "~" H 12650 5800 50  0001 C CNN
+F 4 "C97811" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Semtech" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CS1V101M-CRE77" H 0   0   50  0001 C CNN "Mfg part no."
 	1    12650 5800
 	1    0    0    -1  
 $EndComp
@@ -4380,6 +4813,9 @@ F 0 "J25" H 12580 6142 50  0000 L CNN
 F 1 "E1_MOTOR" H 12580 6051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12500 6150 50  0001 C CNN
 F 3 "~" H 12500 6150 50  0001 C CNN
+F 4 "C124378" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124378" H 0   0   50  0001 C CNN "Mfg part no."
 	1    12500 6150
 	1    0    0    -1  
 $EndComp
@@ -4397,6 +4833,9 @@ F 0 "JP18" H 4150 10674 50  0000 C CNN
 F 1 "BED_SEL" H 4150 10583 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4150 10450 50  0001 C CNN
 F 3 "~" H 4150 10450 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4150 10450
 	1    0    0    -1  
 $EndComp
@@ -4412,6 +4851,9 @@ F 0 "JP20" H 5750 10674 50  0000 C CNN
 F 1 "E0_SEL" H 5750 10583 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5750 10450 50  0001 C CNN
 F 3 "~" H 5750 10450 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5750 10450
 	1    0    0    -1  
 $EndComp
@@ -4431,6 +4873,9 @@ F 0 "JP19" H 5700 11174 50  0000 C CNN
 F 1 "FAN_SEL" H 5700 11083 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5700 10950 50  0001 C CNN
 F 3 "~" H 5700 10950 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
 	1    5700 10950
 	1    0    0    -1  
 $EndComp
@@ -4447,7 +4892,7 @@ Q149
 Text GLabel 3800 11000 0    50   BiDi ~ 0
 BEEPER_PIN
 Text GLabel 4400 11000 2    50   BiDi ~ 0
-Q152
+Q151
 $Comp
 L Device:Jumper JP17
 U 1 1 5D4CEF6C
@@ -4456,6 +4901,9 @@ F 0 "JP17" H 4150 11250 50  0000 C CNN
 F 1 "BEEP_SEL" H 4100 11150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 11000 50  0001 C CNN
 F 3 "~" H 4100 11000 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    4100 11000
 	1    0    0    -1  
 $EndComp
@@ -4466,7 +4914,7 @@ Q143
 Text GLabel 6400 9300 2    50   BiDi ~ 0
 Q150
 Text GLabel 5900 9400 0    50   BiDi ~ 0
-Q151
+Q152
 Text GLabel 6400 9400 2    50   BiDi ~ 0
 Q153
 Text GLabel 5900 9500 0    50   BiDi ~ 0
@@ -4517,6 +4965,9 @@ F 0 "R41" V 15050 2750 50  0000 C CNN
 F 1 "10K" V 15150 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 15080 2750 50  0001 C CNN
 F 3 "~" H 15150 2750 50  0001 C CNN
+F 4 "C38522" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Uniroyal Elec" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Mfg part no."
 	1    15150 2750
 	0    1    1    0   
 $EndComp
@@ -4528,17 +4979,79 @@ IO5
 Text GLabel 7450 11050 2    50   BiDi ~ 0
 SS
 $Comp
-L Device:Jumper JP?
+L Device:Jumper JP29
 U 1 1 5D3B3D39
 P 7150 11050
-F 0 "JP?" H 7200 11300 50  0000 C CNN
+F 0 "JP29" H 7200 11300 50  0000 C CNN
 F 1 "SD_EN" H 7150 11200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7150 11050 50  0001 C CNN
 F 3 "~" H 7150 11050 50  0001 C CNN
+F 4 "C124375" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124375" H 0   0   50  0001 C CNN "Mfg part no."
 	1    7150 11050
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 9900 0    50   BiDi ~ 0
 IO5
 NoConn ~ 4550 9900
+$Comp
+L Jumper:Jumper_3_Open JP30
+U 1 1 5D60F353
+P 5800 6650
+F 0 "JP30" V 6100 6500 50  0000 C CNN
+F 1 "PWR_SEL" V 6000 6400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5800 6650 50  0001 C CNN
+F 3 "~" H 5800 6650 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
+	1    5800 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 6400 5550 6400
+Connection ~ 5550 6400
+Wire Wire Line
+	5800 6900 5550 6900
+Wire Wire Line
+	5550 6900 5550 6800
+Wire Wire Line
+	5550 6700 5550 6800
+Connection ~ 5550 6800
+$Comp
+L Device:C C28
+U 1 1 5D6E9082
+P 15000 1100
+F 0 "C28" V 14950 1350 50  0000 C CNN
+F 1 "100nF25V" V 15050 1350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 15038 950 50  0001 C CNN
+F 3 "~" H 15000 1100 50  0001 C CNN
+F 4 "C128353" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Walsin Tech Corp" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "0805B104K250" H 0   0   50  0001 C CNN "Mfg part no."
+	1    15000 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15150 850  15150 1100
+Wire Wire Line
+	14700 850  14700 1100
+Wire Wire Line
+	14700 1100 14850 1100
+Connection ~ 14700 1100
+$Comp
+L Jumper:Jumper_3_Open JP28
+U 1 1 5D6E9A0E
+P 13250 1550
+F 0 "JP28" V 13300 1450 50  0000 C CNN
+F 1 "5V_SEL" V 13100 1350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13250 1550 50  0001 C CNN
+F 3 "~" H 13250 1550 50  0001 C CNN
+F 4 "C124376" H 0   0   50  0001 C CNN "LCSC Part Number"
+F 5 "Shenzhen Cankemeng" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "C124376" H 0   0   50  0001 C CNN "Mfg part no."
+	1    13250 1550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
