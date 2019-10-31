@@ -3,9 +3,9 @@
 
 This is a 3D printer control board based on the ESP32 microcontroller, which comes with built-in WiFi and BlueTooth.
 
-**Work in progress! Do not attempt production using this schematic!**<br>
-**Problem with I2S stepper stream in Marlin firmware; may result in random pauses during prints**<br>
 **Current version: v0.5**<br>
+
+![](media/MRR_ESPE_v0.5.jpg) 
 
 Features:
 - Able to use up to 5 stepper drivers: X, Y, Z, E0, and E1.
@@ -23,7 +23,9 @@ Features:
 # Firmware
 
 Marlin 2.0 has added support for ESP32, including the use of I2S to drive motor steppers. This board was based on the pins definition file pins_ESP32.h with some modifications based on MRR ESPA. <br>
-In addition, [Luc](https://github.com/luc-github) has been working on a Marlin fork which incorporates part of his ESP3D webUI into Marlin itself.
+In addition, [Luc](https://github.com/luc-github) has been working on a Marlin fork which incorporates part of his ESP3D webUI into Marlin itself.<br>
+
+**Note: There is a problem with the I2S stepper stream in Marlin firmware; it may result in random pauses during prints**<br>
 
 ## Flashing firmware
 
@@ -65,6 +67,7 @@ Released under CERN Open Hardware Licence v1.2. See LICENSE.txt for details.
 - Do not reverse polarity.
 - The breakout and endstop pins are rated for 3.3V, which is the voltage the ESP32 operates at. Attempting to feed inputs above 3.3V to these pins may damage the board.
 - It is recommended to power the board only via USB (i.e. turn off PSU power supply) when flashing the board.
+- This is still a work in progress. It is recommended not to attempt production using this schematic, although it has been extensively tested.
 
 ## Disclaimer
 
