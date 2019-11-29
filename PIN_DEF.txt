@@ -53,8 +53,8 @@ ESP32 pins
 148: E0_AUTO_FAN_PIN
 149: FAN1_PIN
 150: unused
-151: unused
-152: BEEPER_PIN
+151: BEEPER_PIN
+152: unused
 153: unused
 154: unused
 155: unused
