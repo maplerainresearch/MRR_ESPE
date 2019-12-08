@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "MRR ESPE"
-Date "2019-12-09"
-Rev "v0.51"
+Date "2019-10-06"
+Rev "v0.5"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3406,9 +3406,9 @@ $EndComp
 Wire Wire Line
 	5400 3000 5400 2800
 Connection ~ 5400 2800
-Text GLabel 4750 8750 2    50   BiDi ~ 0
-UART-
 Text GLabel 4750 8650 2    50   BiDi ~ 0
+UART-
+Text GLabel 4750 8750 2    50   BiDi ~ 0
 UART+
 $Comp
 L 74xx:74HC595 U7

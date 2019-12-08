@@ -3,7 +3,7 @@
 
 This is a 3D printer control board based on the ESP32 microcontroller, which comes with built-in WiFi and BlueTooth.
 
-**Current version: v0.5**<br>
+**Current version: v0.5rev1**<br>
 
 ![](media/MRR_ESPE_v0.5.jpg) 
 
@@ -24,13 +24,14 @@ Features:
 - Firmware controlled fans: case, E0, and EXT. These fans can be controlled by firmware, or they can be in the "always on" mode by shorting the respective jumpers.
 - EXP3 connector for Creality LCD controller. 
 - AUX1 connector for use with an external host, such as the closed-source MKS TFT32 (**Untested!!**).
+- **Note: v0.5 has an issue with AUX1 connector where the RX and TX pins are swapped. To use with controllers like MKS TFT32, dupont connectors will be needed to connect each pin to their corresponding pin separately instead of an IDC cable.**
 
 # Firmware
 
 Marlin 2.0 has added support for ESP32, including the use of I2S to drive motor steppers. This board was based on the pins definition file pins_ESP32.h with some modifications based on MRR ESPA. <br>
 In addition, [Luc](https://github.com/luc-github) has been working on a Marlin fork which incorporates part of his ESP3D webUI into Marlin itself.<br>
 
-**Note: There is a problem with the I2S stepper stream in Marlin firmware; it may result in random pauses during prints**<br>
+**Note: Due to timer issues with the I2S stream, babystepping will trigger board reset.**<br>
 Note: Marlin's linear advance feature does not work with the I2S stepper stream.<br>
 
 ## Flashing firmware

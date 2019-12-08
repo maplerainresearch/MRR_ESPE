@@ -1,11 +1,16 @@
 Changes
 -------
+v0.5rev1
+--------
+- Fixed TX and RX on AUX1 connector (issue with v0.5).
+
 v0.5
 ----
 - Changed 74HCT595 footprint to TSSOP for better use of PCB space.
 - Added PWR_SEL jumper to select between 12V and 24V for heated bed MOSFET gate.
 - Added debounce capacitor to RESET button.
 - Change VUSB_EN jumper to 5V_SEL jumper, to select between VUSB and VIN for 5V source.
+- Note: The RX and TX pins labeled on the board are wrongly connected (RX is connected to UART+ and TX to UART-. This prevents the AUX1 connector from working with controllers like the MKS TFT32 unless dupont connectors are used to connect each pin separately.
 
 v0.4
 ----
