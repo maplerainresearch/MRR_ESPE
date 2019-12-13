@@ -24,7 +24,7 @@ Features:
 - Firmware controlled fans: case, E0, and EXT. These fans can be controlled by firmware, or they can be in the "always on" mode by shorting the respective jumpers.
 - EXP3 connector for Creality LCD controller. 
 - AUX1 connector for use with an external host, such as the closed-source MKS TFT32 (**Untested!!**).
-- **Note: v0.5 has an issue with AUX1 connector where the RX and TX pins are swapped. To use with controllers like MKS TFT32, dupont connectors will be needed to connect each pin to their corresponding pin separately instead of an IDC cable.**
+- **Note: v0.5 has an issue with AUX1 connector where the RX and TX pins are swapped. To use with controllers like MKS TFT32, dupont connectors will be needed to connect each pin to their corresponding pin separately instead of an IDC cable. The `adapters` directory contains a simple AUX1 adapter board that fixes this issue.**
 
 # Firmware
 
